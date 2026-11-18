@@ -1,7 +1,4 @@
-git init
-git add .
-git commit -m "Katindhi Valley Store"
-git branch -M main#!/usr/bin/env python3
+#!/usr/bin/env python3
 """
 Katindhi Valley General Store - Backend Server
 Wholesale Grocery Store Web Application
@@ -11,7 +8,7 @@ Timings: 8:00 AM to 5:00 PM, Monday to Saturday
 
 import os
 import sys
-import json -uorigin 
+import json
 import urllib.parse
 from http.server import HTTPServer, SimpleHTTPRequestHandler
 from socketserver import ThreadingMixIn
