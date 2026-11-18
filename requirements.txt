@@ -1,0 +1,6 @@
+# Katindhi Valley General Store
+# Zero external pip dependencies required!
+# Runs out-of-the-box on Python 3.8+ using the Python standard library.
+# Optional production WSGI/ASGI servers:
+# gunicorn>=20.1.0
+# uvicorn>=0.22.0

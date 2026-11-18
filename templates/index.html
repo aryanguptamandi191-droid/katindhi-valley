@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Katindhi Valley General Store | Wholesale & Retail Groceries</title>
+  <meta name="description" content="Katindhi Valley General Store - Owner: Hitesh Gupta (9418301840). All groceries available at Mandi rates. Timings 8:00 AM to 5:00 PM Mon-Sat. Touch phone number to order on WhatsApp!">
+  <link rel="stylesheet" href="/static/css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220%22%3E<text y=%2226%22 font-size=%2224%22>🌾</text></svg>">
+</head>
+<body>
+
+  <!-- Top Notification & Quick Contact Bar -->
+  <header class="top-bar">
+    <div class="top-bar-inner">
+      <div class="top-bar-left">
+        <div id="top-status-badge" class="status-badge">
+          <span class="status-dot"></span>
+          <span>Loading Store Status...</span>
+        </div>
+        <span style="opacity: 0.9;">🕒 Timings: <strong>8:00 AM - 5:00 PM</strong> (Mon to Sat)</span>
+      </div>
+      <div class="top-bar-right">
+        <span>📍 Katindhi Valley, HP</span>
+        <span>👤 Owner: <strong>Hitesh Gupta</strong></span>
+        <!-- Touch to WhatsApp Link -->
+        <a href="https://wa.me/919418301840?text=Namaste%20Hitesh%20ji,%20I%20want%20to%20order%20groceries%20from%20Katindhi%20Valley%20General%20Store." target="_blank" class="top-touch-link dynamic-wa-link" title="Touch to open WhatsApp and order">
+          💬 WhatsApp: <strong>9418301840</strong>
+        </a>
+        <!-- Touch to Call Link -->
+        <a href="tel:+919418301840" class="top-touch-link dynamic-tel-link" title="Touch to Call Hitesh Gupta">
+          📞 <strong>9418301840</strong>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Navigation Header -->
+  <nav class="main-header">
+    <div class="header-container">
+      <a href="/" class="brand-wrapper">
+        <div class="brand-logo-icon">🏪</div>
+        <div class="brand-text">
+          <h1>Katindhi Valley General Store</h1>
+          <div class="brand-hindi">कटिंढी वैली जनरल स्टोर • Wholesale &amp; Retail Groceries</div>
+          <div class="brand-sub">Proprietor: Hitesh Gupta • Touch Number to Order</div>
+        </div>
+      </a>
+
+      <!-- Search Bar -->
+      <div class="header-search">
+        <div class="search-input-wrapper">
+          <input type="text" id="search-input" placeholder="Search groceries (Atta, Rice, Dal, Mustard Oil, Spices, चीनी)..." autocomplete="off">
+          <button class="search-btn" aria-label="Search">🔍</button>
+        </div>
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="header-actions">
+        <button onclick="openRateCardModal()" class="btn-icon-text btn-outline" title="View & Print Wholesale Rate Card">
+          <span>📋</span>
+          <span>Rate Card</span>
+        </button>
+
+        <a href="tel:+919418301840" class="btn-icon-text btn-header-call dynamic-tel-link" title="Call Hitesh Gupta">
+          <span>📞 Call 9418301840</span>
+        </a>
+
+        <a href="https://wa.me/919418301840?text=Namaste%20Hitesh%20ji,%20I%20want%20to%20order%20groceries%20from%20Katindhi%20Valley%20General%20Store." target="_blank" class="btn-icon-text btn-header-wa dynamic-wa-link" title="Order on WhatsApp">
+          <span>💬 Order on WhatsApp</span>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Wholesale Section -->
+  <section class="hero-section">
+    <div class="hero-container">
+      <div class="hero-content">
+        <div class="hero-badge-tag">
+          ⭐ Wholesale &amp; Daily Grocery Store
+        </div>
+        <h2 class="hero-title">
+          All Groceries Available at <span>Mandi Rates</span> in Katindhi Valley
+        </h2>
+        <p class="hero-subtitle">
+          Bags of Atta &amp; Rice, sealed 15L Cooking Oil tins, unpolished pulses, pure spices &amp; daily provisions. Simply touch our mobile number or click any item to order directly on WhatsApp!
+        </p>
+
+        <div class="hero-features">
+          <span class="hero-pill">📦 Bulk Bags &amp; Tins</span>
+          <span class="hero-pill">🌾 All Groceries Available</span>
+          <span class="hero-pill">⚡ Fast Valley Dispatch</span>
+          <span class="hero-pill">💬 Direct WhatsApp Orders</span>
+          <span class="hero-pill">🕒 8:00 AM - 5:00 PM (Mon-Sat)</span>
+        </div>
+
+        <div class="hero-cta-group">
+          <!-- Primary WhatsApp Order CTA -->
+          <a href="https://wa.me/919418301840?text=Namaste%20Hitesh%20ji,%20I%20want%20to%20order%20groceries%20from%20Katindhi%20Valley%20General%20Store." target="_blank" class="btn-hero-wa dynamic-wa-link">
+            <span style="font-size:1.3rem;">💬</span>
+            <span>Touch to Order on WhatsApp (9418301840)</span>
+          </a>
+
+          <!-- Primary Call CTA -->
+          <a href="tel:+919418301840" class="btn-hero-call dynamic-tel-link">
+            <span>📞 Call Hitesh Gupta: 9418301840</span>
+          </a>
+
+          <!-- Rate Card Button -->
+          <button onclick="openRateCardModal()" class="btn-hero-call" style="background: rgba(255,255,255,0.15); color:white; border: 1px solid rgba(255,255,255,0.3);">
+            <span>📋 View Rate Card</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Hero Store Summary Card -->
+      <div class="hero-card">
+        <div class="hero-card-header">
+          <h3>Katindhi Valley General Store</h3>
+          <p id="store-live-notice">Store is currently open for orders.</p>
+        </div>
+        <div class="info-rows">
+          <div class="info-row">
+            <div class="info-icon">👤</div>
+            <div class="info-text">
+              <strong>Owner &amp; Inquiries</strong>
+              <span id="hero-owner-display">Hitesh Gupta • 9418301840</span>
+            </div>
+          </div>
+          <div class="info-row">
+            <div class="info-icon">💬</div>
+            <div class="info-text">
+              <strong>Touch to Order on WhatsApp</strong>
+              <a href="https://wa.me/919418301840?text=Namaste%20Hitesh%20ji,%20I%20want%20to%20order%20groceries%20from%20Katindhi%20Valley%20General%20Store." target="_blank" class="touch-phone-box dynamic-wa-link">
+                <span>💬 9418301840 (Open WhatsApp)</span>
+              </a>
+            </div>
+          </div>
+          <div class="info-row">
+            <div class="info-icon">🕒</div>
+            <div class="info-text">
+              <strong>Business Hours</strong>
+              <span id="hero-timings-display">8:00 AM to 5:00 PM (Monday - Saturday)</span>
+            </div>
+          </div>
+          <div class="info-row">
+            <div class="info-icon">📍</div>
+            <div class="info-text">
+              <strong>Store Location</strong>
+              <span>Main Bazar, Katindhi Valley, Himachal Pradesh</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Assurance Ribbon -->
+  <section class="assurance-bar">
+    <div class="assurance-container">
+      <div class="assurance-item">
+        <div class="assurance-icon">🌾</div>
+        <div class="assurance-text">
+          <h4>All Groceries Available</h4>
+          <p>Grains, Dals, Oils, Spices &amp; Provisions</p>
+        </div>
+      </div>
+      <div class="assurance-item">
+        <div class="assurance-icon">💰</div>
+        <div class="assurance-text">
+          <h4>Mandi Wholesale Rates</h4>
+          <p>Genuine pricing on bags, tins &amp; boxes</p>
+        </div>
+      </div>
+      <div class="assurance-item">
+        <div class="assurance-icon">🚚</div>
+        <div class="assurance-text">
+          <h4>Fast Valley Delivery</h4>
+          <p>Same-day dispatch in Katindhi Valley</p>
+        </div>
+      </div>
+      <div class="assurance-item">
+        <div class="assurance-icon">📱</div>
+        <div class="assurance-text">
+          <h4>Easy WhatsApp Ordering</h4>
+          <p>Touch phone number to order directly</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Category Filter Pills Bar -->
+  <section class="categories-section" id="catalog-section">
+    <div class="category-scroll-container" id="category-scroll-container">
+      <!-- Injected by JavaScript -->
+    </div>
+  </section>
+
+  <!-- Main Catalog Content -->
+  <main class="main-layout">
+    <!-- Toolbar -->
+    <div class="toolbar-container">
+      <div class="toolbar-left">
+        <span class="toolbar-title">Grocery Items Catalog</span>
+        <span class="toolbar-count" id="product-count-display">Loading items...</span>
+      </div>
+      <div class="toolbar-right">
+        <label for="sort-select" style="font-size:0.85rem; color:#64748b; font-weight:600;">Sort:</label>
+        <select id="sort-select" class="sort-select">
+          <option value="default">⭐ Featured Items</option>
+          <option value="price_asc">Price: Low to High</option>
+          <option value="price_desc">Price: High to Low</option>
+          <option value="name_asc">Name: A to Z</option>
+        </select>
+        <button onclick="resetFilters()" class="btn-icon-text btn-outline" style="padding:6px 12px; font-size:0.8rem;" title="Reset filters">
+          Reset
+        </button>
+      </div>
+    </div>
+
+    <!-- Product Cards Grid -->
+    <div class="products-grid" id="products-grid">
+      <!-- Injected dynamically by app.js with direct WhatsApp Order buttons -->
+    </div>
+  </main>
+
+  <!-- Wholesale Rate Card / Price List Modal (Clean Customer View - No Margins) -->
+  <div class="modal-overlay" id="rate-card-modal">
+    <div class="modal-box">
+      <div class="modal-header">
+        <div>
+          <h3>📋 Katindhi Valley Grocery Rate Card</h3>
+          <div style="font-size:0.8rem; color:#64748b;">Owner: Hitesh Gupta • Mobile / WhatsApp: 9418301840 • Timings: 8:00 AM - 5:00 PM (Mon-Sat)</div>
+        </div>
+        <button class="btn-close-drawer" onclick="closeRateCardModal()">&times;</button>
+      </div>
+      <div class="modal-body" style="max-height: 60vh; overflow-y: auto;">
+        <table style="width: 100%; border-collapse: collapse; font-size: 0.9rem;">
+          <thead>
+            <tr style="background:#f1f5f9; text-align: left; border-bottom: 2px solid #cbd5e1;">
+              <th style="padding:10px 8px;">Item Name</th>
+              <th style="padding:10px 8px;">Category</th>
+              <th style="padding:10px 8px;">Packaging Size</th>
+              <th style="padding:10px 8px;">Wholesale Rate (₹)</th>
+              <th style="padding:10px 8px; text-align:right;">Order</th>
+            </tr>
+          </thead>
+          <tbody id="rate-card-table-body">
+            <!-- Injected by app.js without margins -->
+          </tbody>
+        </table>
+      </div>
+      <div class="modal-footer">
+        <button class="btn-icon-text btn-outline" onclick="window.print()">
+          🖨️ Print Rate List
+        </button>
+        <a href="https://wa.me/919418301840?text=Namaste%20Hitesh%20ji,%20I%20want%20to%20place%20an%20order%20from%20your%20rate%20card." target="_blank" class="btn-icon-text btn-header-wa dynamic-wa-link">
+          💬 WhatsApp Hitesh Gupta
+        </a>
+        <button class="btn-icon-text btn-primary" onclick="closeRateCardModal()">
+          Close
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating WhatsApp Quick Button for Desktop -->
+  <a href="https://wa.me/919418301840?text=Namaste%20Hitesh%20ji,%20I%20want%20to%20order%20groceries%20from%20Katindhi%20Valley%20General%20Store." target="_blank" class="floating-wa-btn dynamic-wa-link" title="Touch to chat & order on WhatsApp">
+    <span style="font-size:1.4rem;">💬</span>
+    <span>Order on WhatsApp (9418301840)</span>
+  </a>
+
+  <!-- Mobile Sticky Bottom Action Bar -->
+  <aside class="mobile-bottom-bar" aria-label="Quick Mobile Actions">
+    <div class="mobile-bottom-bar-inner">
+      <a href="tel:+919418301840" class="btn-mobile-action btn-mobile-call dynamic-tel-link">
+        <span>📞 Call 9418301840</span>
+      </a>
+      <a href="https://wa.me/919418301840?text=Namaste%20Hitesh%20ji,%20I%20want%20to%20order%20groceries%20from%20Katindhi%20Valley%20General%20Store." target="_blank" class="btn-mobile-action btn-mobile-wa dynamic-wa-link">
+        <span>💬 WhatsApp Order</span>
+      </a>
+    </div>
+  </aside>
+
+  <!-- Footer -->
+  <footer class="store-footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <h2>Katindhi Valley General Store</h2>
+        <div style="color: #fde047; font-weight: 700; font-size: 0.95rem; margin-bottom: 8px;">
+          कटिंढी वैली जनरल स्टोर • थोक एवं परचून विक्रेता
+        </div>
+        <p>
+          Your trusted grocery store in Katindhi Valley. Providing fresh bags of Atta, Rice, Pulses, Cooking Oils, Spices and household provisions at genuine rates.
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Touch to Order &amp; Contact</h4>
+        <ul>
+          <li>👤 <strong>Owner:</strong> Hitesh Gupta</li>
+          <li>
+            💬 <strong>WhatsApp Order:</strong> 
+            <a href="https://wa.me/919418301840?text=Namaste%20Hitesh%20ji,%20I%20want%20to%20order%20groceries." target="_blank" class="dynamic-wa-link" style="color:#4ade80; font-weight:700;">
+              9418301840 (Click to Chat)
+            </a>
+          </li>
+          <li>
+            📞 <strong>Direct Call:</strong> 
+            <a href="tel:+919418301840" class="dynamic-tel-link" style="color:#fde047; font-weight:700;">
+              9418301840 (Click to Call)
+            </a>
+          </li>
+          <li>📍 <strong>Store Address:</strong> Main Bazar, Katindhi Valley, Himachal Pradesh</li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Store Timings</h4>
+        <ul>
+          <li>🕒 <strong>8:00 AM to 5:00 PM</strong></li>
+          <li>📅 <strong>Monday to Saturday</strong></li>
+          <li>🚫 <strong>Sunday:</strong> Closed</li>
+          <li>💬 <strong>WhatsApp Inquiries:</strong> 24/7</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div>© 2026 Katindhi Valley General Store. Proprietor: Hitesh Gupta.</div>
+      <div>
+        <a href="/admin" style="color:#64748b; font-size:0.75rem; text-decoration:none;">Owner Login</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/static/js/app.js"></script>
+</body>
+</html>
